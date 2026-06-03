@@ -2,6 +2,13 @@
 
 Funnel analysis, RFM segmentation, and loyalty ROI simulation on a real electronics store event log — built to identify and quantify where revenue is lost.
 
+## Live Dashboard
+
+🔗 https://danilakhryshchanovych.github.io/ecommerce-revenue-leakage/
+
+## 📄 Executive Memo
+executive_memo.md
+
 ## The business problem
 
 Only 4.98% of browsing sessions end in a purchase, with 91.5% of viewers never adding a single item to cart. Revenue is highly concentrated: the top 10% of buyers drive approximately a half of total sales, making retention of high-value customers existentially more important than acquisition. A distinct At Risk cohort — buyers who spent meaningfully but have gone quiet — represents a time-sensitive reactivation opportunity before they slide into the Lost segment.
