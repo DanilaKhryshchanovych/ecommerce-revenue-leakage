@@ -7,7 +7,8 @@ Funnel analysis, RFM segmentation, and loyalty ROI simulation on a real electron
 🔗 https://danilakhryshchanovych.github.io/ecommerce-revenue-leakage/
 
 ## 📄 Executive Memo
-executive_memo.md
+
+🔗 [Open Executive Memo](./executive_memo.md)
 
 ## The business problem
 
