@@ -24,11 +24,11 @@ Analysis of the electronics store event log (24 Sep 2020 – 28 Feb 2021, 490,77
 | With cart add | 41,284 | 8.45% of view sessions |
 | With purchase | 24,348 | 58.98% of cart sessions |
 
-![Session-Level Conversion Funnel](../notebooks/charts/Conversion_Funnel.png)
+![Session-Level Conversion Funnel](notebooks/charts/Conversion_Funnel.png)
 
 *Fig 1. The funnel narrows drastically at the view-to-cart step — the gap is structural, not a checkout problem.*
 
-![Monthly Conversion Rates Over Time](../notebooks/charts/Monthly_Conversion_Trend.png)
+![Monthly Conversion Rates Over Time](notebooks/charts/Monthly_Conversion_Trend.png)
 
 *Fig 2. View→cart rate improved from 6.6% to 9.7% over the period, but remains far below the cart→purchase rate (58%). The constraint is consistently upstream.*
 
@@ -45,7 +45,7 @@ Analysis of the electronics store event log (24 Sep 2020 – 28 Feb 2021, 490,77
 | 21–30% | $608,188 | 11.9% | 79.6% |
 | Bottom 70% | $1,043,369 | 20.4% | 100.0% |
 
-![Pareto Curve — Revenue Concentration](../notebooks/charts/Revenue_Concentration.png)
+![Pareto Curve — Revenue Concentration](notebooks/charts/Revenue_Concentration.png)
 
 *Fig 3. Gini = 0.65. The top 10% of buyers generate 48% of revenue; the top 31% generate 80%. The curve bows sharply away from the equality line, confirming extreme concentration.*
 
@@ -65,11 +65,11 @@ The top 30% of buyers account for 79.6% of total revenue — slightly tighter th
 | Lost | 3,706 | 17.4% | 131 days | $137 | $506,590 | 9.9% |
 | Needs Attention | 2,594 | 12.2% | 105 days | $61 | $157,618 | 3.1% |
 
-![RFM Segment Strategy Matrix](../notebooks/charts/RFM_Segment_Strategy_Matrix.png)
+![RFM Segment Strategy Matrix](notebooks/charts/RFM_Segment_Strategy_Matrix.png)
 
 *Fig 4. Each bubble is a segment; size = total revenue. At Risk and Can't Lose Them both sit in the high-recency (lapsed) zone — the reactivation window is closing.*
 
-![User Share vs Revenue Share by RFM Segment](../notebooks/charts/User_Share_vs_Revenue_Share.png)
+![User Share vs Revenue Share by RFM Segment](notebooks/charts/User_Share_vs_Revenue_Share.png)
 
 *Fig 5. Champions are 17.5% of users but 44% of revenue ($599/user). At Risk users are 0.9% of users but generate only 0.3% of revenue at $93/user — the gap between their user share and revenue contribution signals underperformance against their historical potential.*
 
@@ -87,7 +87,7 @@ At Risk buyers last purchased ~109 days ago and have documented spend averaging 
 
 *Results for At Risk segment. Source: q4_loyalty_roi.csv.*
 
-![Loyalty Campaign — Incremental Lift by Offer Type](../notebooks/charts/Loyalty_Campaign_Incremental_Lift.png)
+![Loyalty Campaign — Incremental Lift by Offer Type](notebooks/charts/Loyalty_Campaign_Incremental_Lift.png)
 
 *Fig 6. Email discount generates ~$91K in total revenue vs the $19K control baseline — a +$72K lift. Push cashback outperforms control but trails email by $35K. The revenue gap is the business case for email-first targeting.*
 
