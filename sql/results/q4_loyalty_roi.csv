@@ -1,0 +1,10 @@
+offer_type,rfm_segment,users_targeted,conversions,conversion_rate_pct,avg_order_value,total_revenue,roi_ratio
+email_discount,At Risk,63,12.0,19.0,192.03,2304.41,73.16
+control,At Risk,69,4.0,5.8,192.93,771.73,22.37
+push_cashback,At Risk,60,3.0,5.0,135.24,405.71,13.52
+push_cashback,Can't Lose Them,159,26.0,16.4,168.75,4387.48,55.19
+email_discount,Can't Lose Them,162,18.0,11.1,191.2,3441.52,42.49
+control,Can't Lose Them,151,5.0,3.3,146.06,730.28,9.67
+email_discount,Lost,2557,465.0,18.2,184.48,85781.2,67.1
+push_cashback,Lost,2521,315.0,12.5,164.42,51791.77,41.09
+control,Lost,2493,99.0,4.0,172.59,17086.83,13.71

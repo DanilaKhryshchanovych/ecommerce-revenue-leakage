@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+
+# the plan
+implementation_plan.md
+
+# dataset
+events.csv
+data/processed/events_clean.parquet
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local Claude settings (may contain personal paths/tokens)
+.claude/settings.local.json
+
+# OS
+Thumbs.db
+.DS_Store

@@ -1,0 +1,34 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python)",
+      "Bash(python -c ' *)",
+      "Bash(Remove-Item \"d:\\\\Tools\\\\E-Commerce Revenue Leakage\\\\patch_notebooks.py\", \"d:\\\\Tools\\\\E-Commerce Revenue Leakage\\\\patch_rfm.py\" -ErrorAction SilentlyContinue)",
+      "Bash(Write-Host \"cleaned\")",
+      "Bash(python -c \"import pandas as pd; df = pd.read_csv\\('d:/Tools/E-Commerce Revenue Leakage/sql/results/q3_revenue_concentration.csv'\\); print\\(df.to_string\\(\\)\\)\")",
+      "Bash(pip install *)",
+      "Bash(python dashboard/dashboard.py)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:8050/)",
+      "Bash(python dashboard/export_html.py)",
+      "Bash(powershell -Command \"\\(Get-Item 'D:\\\\Tools\\\\E-Commerce Revenue Leakage\\\\dashboard\\\\dashboard.html'\\).Length / 1KB\")",
+      "PowerShell($lines = \\(Get-Content \"d:\\\\Tools\\\\E-Commerce Revenue Leakage\\\\dashboard\\\\dashboard.html\" | Measure-Object -Line\\).Lines; Write-Host \"Total lines: $lines\")",
+      "Bash(Get-Content \"d:\\\\Tools\\\\E-Commerce Revenue Leakage\\\\sql\\\\results\\\\q2_rfm_segments.csv\")",
+      "Bash(python sql/run_queries.py)",
+      "Bash(python -c \"import pandas as pd; df = pd.read_csv\\('d:/Tools/E-Commerce Revenue Leakage/sql/results/q4_loyalty_roi.csv'\\); print\\(df.to_string\\(\\)\\)\")",
+      "PowerShell(Get-ChildItem -Path \"d:\\\\Tools\\\\E-Commerce Revenue Leakage\" -Recurse -Force | Select-Object -Property FullName, PSIsContainer | Sort-Object FullName | ForEach-Object { if \\($_.PSIsContainer\\) { $_.FullName + \" [DIR]\" } else { $_.FullName } })",
+      "Bash(Find \"d:\\\\Tools\\\\E-Commerce Revenue Leakage\" -name \"*.md\" -o -name \"*.txt\" -o -name \".gitignore\")",
+      "Bash(python -c \"import json; nb = json.load\\(open\\('notebooks/01_cleaning.ipynb'\\)\\); print\\('Cells:', len\\(nb['cells']\\)\\); print\\('First cell:', nb['cells'][0]['cell_type'] if nb['cells'] else 'None'\\)\")",
+      "Bash(jupyter nbconvert *)",
+      "Bash(python -c \"import pandas as pd; df = pd.read_parquet\\('data/processed/events_clean.parquet', columns=['event_type']\\); print\\(df['event_type'].unique\\(\\)\\); print\\(df['event_type'].value_counts\\(\\)\\)\")",
+      "Bash(python -c \"import pandas as pd; df = pd.read_parquet\\('data/processed/events_clean.parquet', columns=['event_time']\\); print\\(df['event_time'].min\\(\\), '|', df['event_time'].max\\(\\)\\)\")",
+      "Bash(Get-ChildItem -Path \"d:\\\\Tools\\\\E-Commerce Revenue Leakage\" -Force)",
+      "Bash(Select-Object Name, Attributes)",
+      "Bash(powershell -Command ' *)",
+      "Read(//d/d/Tools/E-Commerce Revenue Leakage/sql/**)",
+      "Read(//d/d/Tools/E-Commerce Revenue Leakage/data/**)",
+      "PowerShell(Get-Item \"d:\\\\Tools\\\\E-Commerce Revenue Leakage\\\\events.csv\" -ErrorAction SilentlyContinue | Select-Object Name, @{N='SizeMB';E={[math]::Round\\($_.Length/1MB,1\\)}}; Get-Item \"d:\\\\Tools\\\\E-Commerce Revenue Leakage\\\\data\\\\processed\\\\events_clean.parquet\" -ErrorAction SilentlyContinue | Select-Object Name, @{N='SizeMB';E={[math]::Round\\($_.Length/1MB,1\\)}})",
+      "Bash(Get-ChildItem -Path \"d:\\\\Tools\\\\E-Commerce Revenue Leakage\" -Recurse -File)",
+      "Bash(Select-Object -ExpandProperty FullName)"
+    ]
+  }
+}

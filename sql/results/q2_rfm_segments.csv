@@ -1,0 +1,8 @@
+rfm_segment,user_count,pct_of_users,avg_recency_days,avg_orders,avg_revenue,total_revenue,pct_of_revenue
+Champion,1106,5.2,20.0,2.0,860.85,952105.56,18.6
+Can't Lose Them,1045,4.9,119.0,1.6,515.5,538699.73,10.5
+New Customer,4392,20.6,38.0,1.0,260.87,1145720.67,22.4
+Loyal Customer,6860,32.2,47.0,1.1,221.94,1522478.29,29.7
+At Risk,1601,7.5,109.0,1.1,188.75,302183.49,5.9
+Lost,3706,17.4,131.0,1.0,136.69,506590.31,9.9
+Needs Attention,2594,12.2,105.0,1.1,60.76,157617.57,3.1
