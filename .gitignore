@@ -8,6 +8,8 @@ __pycache__/
 venv/
 env/
 .env
+.claude/
+.vscode/
 
 # the plan
 implementation_plan.md
